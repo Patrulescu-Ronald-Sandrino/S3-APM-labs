@@ -1,0 +1,184 @@
+ID: 2001
+[1;33mExecutionStack:[0m
+int a
+int b
+a=2+3*5
+b=a+1
+print(b)
+
+[1;33mSymbolTable:[0m
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 2001
+[1;31mExecutionStack:[0m
+int a
+int b
+a=2+3*5
+b=a+1
+print(b)
+
+[1;31mSymbolTable:[0m
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 2001
+[1;33mExecutionStack:[0m
+int b
+a=2+3*5
+b=a+1
+print(b)
+
+[1;33mSymbolTable:[0m
+a --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 2001
+[1;31mExecutionStack:[0m
+int b
+a=2+3*5
+b=a+1
+print(b)
+
+[1;31mSymbolTable:[0m
+a --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 2001
+[1;33mExecutionStack:[0m
+a=2+3*5
+b=a+1
+print(b)
+
+[1;33mSymbolTable:[0m
+a --> 0
+b --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 2001
+[1;31mExecutionStack:[0m
+a=2+3*5
+b=a+1
+print(b)
+
+[1;31mSymbolTable:[0m
+a --> 0
+b --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 2001
+[1;33mExecutionStack:[0m
+b=a+1
+print(b)
+
+[1;33mSymbolTable:[0m
+a --> 17
+b --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 2001
+[1;31mExecutionStack:[0m
+b=a+1
+print(b)
+
+[1;31mSymbolTable:[0m
+a --> 17
+b --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 2001
+[1;31mExecutionStack:[0m
+print(b)
+
+[1;31mSymbolTable:[0m
+a --> 17
+b --> 18
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 2001
+[1;90mExecutionStack:[0m
+
+[1;90mSymbolTable:[0m
+a --> 17
+b --> 18
+
+[1;90mOutList:[0m
+18
+
+[1;90mFileTable:[0m
+
+[1;90mHeap:[0m
+
+
+
+

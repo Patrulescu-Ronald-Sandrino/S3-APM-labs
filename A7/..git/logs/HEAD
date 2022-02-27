@@ -1,0 +1,22 @@
+0000000000000000000000000000000000000000 3e02389a785e342c2fca9788df964e999e1a7076 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641752607 +0200	commit (initial): copy from A6
+3e02389a785e342c2fca9788df964e999e1a7076 00aad0f03849130b36be8dda5be44fe06b135e42 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641754498 +0200	commit: add log dir creation in Repository
+00aad0f03849130b36be8dda5be44fe06b135e42 9c568bcc3709c77384a797b1ce7883ba1ea1fd5c sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641754922 +0200	commit: final tweaks before A7
+9c568bcc3709c77384a797b1ce7883ba1ea1fd5c a20f97dea82b4fef6f80c8999fd75d997e673082 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641759397 +0200	commit: basic window setup
+a20f97dea82b4fef6f80c8999fd75d997e673082 08534eda942fe50c38fe36aec30d205bf596a1b3 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641773914 +0200	commit: add gui skeleton
+08534eda942fe50c38fe36aec30d205bf596a1b3 aaddd4ea7ddd3e37ef7dd471a0fff4d513144bb4 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641830977 +0200	commit: almost done GUI
+aaddd4ea7ddd3e37ef7dd471a0fff4d513144bb4 35929cbee5dc02f7363e7c1c779b6d814703fc10 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641834266 +0200	commit: GUI looks done
+35929cbee5dc02f7363e7c1c779b6d814703fc10 7701843d66fb1ed8cd2f44b303b9cd63f29d4d6e sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641837138 +0200	commit: before GUI data population
+7701843d66fb1ed8cd2f44b303b9cd63f29d4d6e 1a8bed89d73ab15f3bba456fa1c92249d5f59d57 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641855505 +0200	commit: untrack /out
+1a8bed89d73ab15f3bba456fa1c92249d5f59d57 3eb78791ecb3f2102e3edf3737fc4e75e7ea90b1 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641923840 +0200	commit: wrap stage showing in try-catch
+3eb78791ecb3f2102e3edf3737fc4e75e7ea90b1 303bf81cdab835f50c04944359b254263a49225c sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641929250 +0200	commit: add VM Options to Main.java's tail
+303bf81cdab835f50c04944359b254263a49225c f014c97bd993e4aa519e5295f0562a976c9dfe4b sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641946582 +0200	commit: - create updates.md to take notes and observations
+f014c97bd993e4aa519e5295f0562a976c9dfe4b bfb6df9ca7613076d6db7120e015fd0b1ba77c7d sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1641989926 +0200	commit: fucking refresh
+bfb6df9ca7613076d6db7120e015fd0b1ba77c7d b6957f80db568a5e6f9376e4e57ef6320585592e sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643492882 +0200	commit: see updates.md
+b6957f80db568a5e6f9376e4e57ef6320585592e fddb5f0df4eeb497c124b853bf9da85f1a6d46f5 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643505289 +0200	commit: fix threads ids, add remove completed programs for oneStepExecutionForAllPrograms, made the TextUI still work after type-check fails
+fddb5f0df4eeb497c124b853bf9da85f1a6d46f5 6e8585cca8f3814c0b5a89a4be877be683aafebe sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643577892 +0200	commit: RepeatUntil + LogicalNegation + somefixes
+6e8585cca8f3814c0b5a89a4be877be683aafebe f0faedf906fa066e1a168cf54cb1a411b0876f17 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643581725 +0200	commit: rename Dictionary to DictionaryWithClonableValues + add Dictionary + optimize imports
+f0faedf906fa066e1a168cf54cb1a411b0876f17 f0faedf906fa066e1a168cf54cb1a411b0876f17 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643581791 +0200	checkout: moving from main to CyclicBarrier
+f0faedf906fa066e1a168cf54cb1a411b0876f17 eccf2c59679ee8ae6671ddb7bff0a69bd43b504e sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643582053 +0200	commit: add barrierTable in ProgramSate
+eccf2c59679ee8ae6671ddb7bff0a69bd43b504e 1c9bd56ef7323279b35147e0cdd0b8d281807da6 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1643592338 +0200	commit: complete CyclicBarrier
+1c9bd56ef7323279b35147e0cdd0b8d281807da6 f0faedf906fa066e1a168cf54cb1a411b0876f17 sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1645031302 +0200	checkout: moving from CyclicBarrier to main
+f0faedf906fa066e1a168cf54cb1a411b0876f17 3cf00846b1768ca3b50adb6fe7ae3737a82ab63a sandrinopatrulescu <sandryno_sandryno@yahoo.com> 1645054929 +0200	commit: some updates after exam session

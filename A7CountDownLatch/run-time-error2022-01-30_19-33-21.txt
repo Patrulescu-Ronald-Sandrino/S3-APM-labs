@@ -1,0 +1,751 @@
+ 7722  sudo mount -t binder binder /dev/binder
+ 7723  sudo mount -t binder binder /dev/binder
+ 7724  modprobe ashmem_linux binder_linux
+ 7725  sudo mkdir /dev/binderfs
+ 7726  sudo mount -t binder binder /dev/binderfs
+ 7727  sudo snap install snap-store
+ 7728  snap install --devmode --edge anbox
+ 7729  snap info anbox
+ 7730  snap refresh --edge --devmode anbox
+ 7731  sudo snap set anbox debug.enable=true
+ 7732  sudo /snap/bin/anbox.collect-bug-info 
+ 7733  ls
+ 7734  cat adb.1000.log 
+ 7735  anbox system-info
+ 7736  ls /var/lib/anbox
+ 7737  systemctl status snap.anbox.container-manager:
+ 7738  sudo apt install anbox-module-dkms
+ 7739  sudo apt install anbox
+ 7740  sudo apt install wget curl lzip tar unzip squashfs-tools
+ 7741  sudo apt autoremove 
+ 7742  wget https://raw.githubusercontent.com/geeks-r-us/anbox-playstore-installer/master/install-playstore.sh
+ 7743  ls
+ 7744  chmod u+x install-playstore.sh
+ 7745  ./install-playstore.sh 
+ 7746  _ ./install-playstore.sh 
+ 7747  sudo  ./install-playstore.sh 
+ 7748  sudo at >/etc/systemd/system/anbox-container-manager.service.d/override.conf<<EOF
+ 7749  [Service]
+ 7750  ExecStart=
+ 7751  ExecStart=/usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7752  EOF
+ 7753  sudo cat >/etc/systemd/system/anbox-container-manager.service.d/override.conf<<EOF
+ 7754  [Service]
+ 7755  ExecStart=
+ 7756  ExecStart=/usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7757  EOF
+ 7758  sudo cat >|/etc/systemd/system/anbox-container-manager.service.d/override.conf<<EOF
+ 7759  [Service]
+ 7760  ExecStart=
+ 7761  ExecStart=/usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7762  EOF
+ 7763  [Service]
+ 7764  ExecStart=
+ 7765  ExecStart=/usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7766  EOF
+ 7767  sudo ./install-playstore.sh 
+ 7768  vi /etc/systemd/system/anbox-container-manager.service.d/override.conf
+ 7769  _ systemctl daemon-reload
+ 7770  _ systemctl restart anbox-container-manager.service
+ 7771  echo $OVERLAYDIR
+ 7772  echo $WORKDIR
+ 7773  /usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7774  sudo /usr/bin/anbox container-manager --daemon --privileged --data-path=/var/lib/anbox --use-rootfs-overlay
+ 7775  ndroid image does not exist at path "/var/lib/anbox/android.img"
+ 7776  wget https://raw.githubusercontent.com/anbox/anbox-installer/master/installer.sh -O anbox-installer
+ 7777  ls
+ 7778  chmod u+x anbox-installer 
+ 7779  ./anbox-installer 
+ 7780  sudo anbox container-manager --android-image=/var/lib/anbox/android.img
+ 7781  /usr/bin/anbox container-manager --daemon --privileged --use-rootfs-overlay
+ 7782  sudo /usr/bin/anbox container-manager --daemon --privileged --use-rootfs-overlay
+ 7783  find ~ -iname "android.img"
+ 7784  sudo anbox container-manager --android-image=/snap/anbox/current/android.img
+ 7785  sudo anbox container-manager --daemon --android-image=/snap/anbox/current/android.img
+ 7786  sudo /usr/bin/anbox container-manager --daemon --privileged --data-path=/snap/anbox --use-rootfs-overlay
+ 7787  sudo /usr/bin/anbox container-manager --daemon --privileged --data-path=/snap/anbox/current --use-rootfs-overlay
+ 7788  sudo /usr/bin/anbox container-manager --daemon --privileged --data-path=/snap/anbox/current --use-rootfs-overlay
+ 7789  ls /var/lib/anbox/
+ 7790  task
+ 7791  date; time find / -iname "android.img" | tee --append $SCRATCH/outputs/output$(fdate).txt; date
+ 7792  findSkipDirs -p /home/timeshift /mnt /proc
+ 7793  date; time find / -type d \( -path /home/timeshift -o -path /mnt -o -path /proc \) -prune -o -iname "android.img" | tee --append $SCRATCH/outputs/output$(fdate).txt; date
+ 7794  date; _ time find / -type d \( -path /home/timeshift -o -path /mnt -o -path /proc \) -prune -o -iname "android.img" | tee --append $SCRATCH/outputs/output$(fdate).txt; date
+ 7795  sudo time echo
+ 7796   time sudo echo
+ 7797  date; time _ find / -type d \( -path /home/timeshift -o -path /mnt -o -path /proc \) -prune -o -iname "android.img" | tee --append $SCRATCH/outputs/output$(fdate).txt; date
+ 7798  find /snap -iname "android.img"
+ 7799  _ find /snap -iname "android.img"
+ 7800  lrth /snap/anbox/213/android.img
+ 7801  cd /snap/anbox/213/
+ 7802  ls
+ 7803  mv android.img android.img.old$(fdate)
+ 7804  _ mv android.img android.img.old$(fdate)
+ 7805  history
+ 7806  cat /var/lib/anbox/rootfs-overlay
+ 7807  cat install-playstore.sh
+ 7808  grep "overlay" install-playstore.sh
+ 7809  grep -n "overlay" install-playstore.sh
+ 7810  _ snap set anbox rootfs-overlay.enable=true
+ 7811  grep -n "Overlay" install-playstore.sh
+ 7812  vi install-playstore.sh 
+ 7813  EGL_PLATFORM=x11 anbox session-manager
+ 7814  slay firefox
+ 7815  ls
+ 7816  slay virtualbox
+ 7817  EGL_PLATFORM=x11 anbox.appmgr
+ 7818  vi /mnt/e/dotfiles/alias 
+ 7819  cd ~/Programs/
+ 7820  history
+ 7821  hist
+ 7822  history 
+ 7823  history
+ 7824  ./install-playstore.sh
+ 7825  _ ./install-playstore.sh
+ 7826  slay teams
+ 7827  slay firefox
+ 7828  rs mozilla_kamui0/android_1_amd64.img /var/lib/anbox/android.img
+ 7829  _ rs mozilla_kamui0/android_1_amd64.img /var/lib/anbox/android.img
+ 7830  _ ./install-playstore.sh
+ 7831  srcs
+ 7832  EGL_PLATFORM=x11 anbox.appmgr
+ 7833  slay teams
+ 7834  title 
+ 7835  DBS
+ 7836  ls
+ 7837  unrar t CojocaruVladAndreiExam.rar 
+ 7838  mkdir CojocaruVladAndreiExam
+ 7839  man unrar
+ 7840  man unrar
+ 7841  unrar e CojocaruVladAndreiExam.rar CojocaruVladAndreiExam/
+ 7842  cd CO
+ 7843  cd CojocaruVladAndreiExam/
+ 7844  ls
+ 7845  shotwell Capitols.png 
+ 7846  cat 'READ ME.txt'
+ 7847  shotwell Capitols.png
+ 7848  thunar .
+ 7849  cd ..
+ 7850  ls
+ 7851  ls moodle/
+ 7852  sp2 evince moodle/DatabasesProblems.pdf 
+ 7853  DBS
+ 7854  ls
+ 7855  cd CojocaruVladAndreiExam/
+ 7856  ls
+ 7857  thunar .
+ 7858  slay teams
+ 7859  title 
+ 7860  slay teams
+ 7861  title 
+ 7862  fdate
+ 7863  fdate
+ 7864  calc 148.35 - 1.74
+ 7865  calc 147 - 146.61
+ 7866  calc 47.34/2 
+ 7867  slay firefox
+ 7868  cleanup 
+ 7869  reading
+ 7870  ls
+ 7871  studying 
+ 7872  ls
+ 7873  cd Java/
+ 7874  ls
+ 7875  cd Java\ for\ Dummies\,\ 7th\ Edition/
+ 7876  ls
+ 7877  evince 2298-java-for-dummies-\(www.FindPopularBooks.com\).pdf 
+ 7878  cd ~
+ 7879  shutdown1 
+ 7880  title 
+ 7881  slay teams
+ 7882  cal
+ 7883  shutdown1
+ 7884  ls $UNIPATH 
+ 7885  ls $UNIPATH 
+ 7886  APM
+ 7887  ls
+ 7888  ls
+ 7889  backup A7
+ 7890  mkdir exam
+ 7891  ls
+ 7892  cd teams/
+ 7893  ls
+ 7894  lrth
+ 7895  cal
+ 7896  ls Seminar
+ 7897  evince Seminar/Seminar14.pdf 
+ 7898  ls
+ 7899  lrt
+ 7900  lrth
+ 7901  unzip -t OneDrive_1_1-27-2022.zip 
+ 7902  unzip OneDrive_1_1-27-2022.zip 
+ 7903  lrth
+ 7904  unzip -t OneDrive_2_1-27-2022.zip 
+ 7905  unzip OneDrive_2_1-27-2022.zip 
+ 7906  slay spotify
+ 7907  cd /tmp
+ 7908  ls
+ 7909  unzip -t  WhatsApp\ Unknown\ 2022-01-28\ at\ 00.00.44.zip 
+ 7910  unzip  WhatsApp\ Unknown\ 2022-01-28\ at\ 00.00.44.zip 
+ 7911  mv 'WhatsApp Image 2022-01-14 at 13.34.13.jpeg' RaiuMadalin926-SemW14-Poza1.jpeg
+ 7912  mv 'WhatsApp Image 2022-01-14 at 13.34.14.jpeg' RaiuMadalin926-SemW14-Poza2.jpeg
+ 7913  mv 'WhatsApp Image 2022-01-14 at 13.34.14 (1).jpeg' RaiuMadalin926-SemW14-Poza3.jpeg
+ 7914  mv 'WhatsApp Image 2022-01-14 at 13.34.15.jpeg' RaiuMadalin926-SemW14-Poza4.jpeg
+ 7915  -
+ 7916  ls
+ 7917  ..
+ 7918  ls
+ 7919  rm PracticalExam-27January2022.pdf 
+ 7920  shutdown1
+ 7921  title 
+ 7922  slay teams
+ 7923  calc 488.75 / 3
+ 7924  calc 488.75 / 3 / 2
+ 7925  terminal_darkness 7
+ 7926  calc 213 * 10.476
+ 7927  calc 213 \* 10.476
+ 7928  calc 213 \* 10.476 \* 0.22288 \* 1
+ 7929  calc 437 \* 10.476 \* 0.22288 \* 1
+ 7930  calc 437 \* 10.476 \* 0.22277 \* 1
+ 7931  calc 437 \* 10.476 
+ 7932  calc 213 \* 10.476 \* 0.22277 \* 1
+ 7933  calc 488.75 / 2
+ 7934  _ apt update
+ 7935  apt list --upgradable 
+ 7936  _ time apt upgrade
+ 7937  clear; src
+ 7938  mk /e/Captures/S4/{WP,DBMS,AI,SDI,SE}
+ 7939  mkdir $UNIPATH/S4.{WP,DBMS,AI,SDI,SE}
+ 7940  slay teams
+ 7941  title 
+ 7942  calc '(0.72 - 0.6262)*100'
+ 7943  calc '(0.72 - 0.6262)*1000'
+ 7944  cd /tmp
+ 7945  unzip -t Contract\ Gaz\ -\ Enel\ 2021.zip 
+ 7946  unzip -d Contract\ Gaz\ -\ Enel\ 2021  Contract\ Gaz\ -\ Enel\ 2021.zip 
+ 7947  ls
+ 7948  cd Contract\ Gaz\ -\ Enel\ 2021/
+ 7949  ls
+ 7950  cd Contract\ Gaz\ -\ Enel\ 2021/
+ 7951  ls
+ 7952  pwd
+ 7953  calc 485 \* 1.19
+ 7954  calc 170/34 / 0.273
+ 7955  calc 170.34 / 0.273
+ 7956  cd /tmp
+ 7957  ls
+ 7958  unzip -t Contract\ Curent\ -\ NOVAPOWER\ 2021.zip 
+ 7959  ls
+ 7960  unzip -l Contract\ Curent\ -\ NOVAPOWER\ 2021.zip 
+ 7961  unzip -d Contract\ Curent\ -\ NOVAPOWER\ 2021 Contract\ Curent\ -\ NOVAPOWER\ 2021.zip 
+ 7962  cd Contract\ Curent\ -\ NOVAPOWER\ 2021/
+ 7963  ls
+ 7964  pwd
+ 7965  calc 535.48 \* 1.19
+ 7966  APM
+ 7967  cd teams/
+ 7968  sp2 evince Lecture/Lecture1.pdf 
+ 7969  sp2 evince Lecture/Lecture3.pdf 
+ 7970  sp2 evince Lecture/Lecture4.pdf 
+ 7971  sp2 evince Lecture/Lecture5.pdf 
+ 7972  sp2 evince Lecture/Lecture5.pdf 
+ 7973  ls Lecture/
+ 7974  sp2 evince Lecture/Lecture5-6.pdf 
+ 7975  sp2 evince Lecture/Lecture8.pdf 
+ 7976  sp2 evince Lecture/Lecture7.pdf 
+ 7977  sp2 evince Lecture/Lecture7.pdf 
+ 7978  sp2 evince Lecture/Lecture7.pdf 
+ 7979  sp2 evince Lecture/Lecture8.pdf 
+ 7980  sp2 evince Lecture/Lecture7.pdf 
+ 7981   sp2 evince Lecture/Lecture5-6.pdf
+ 7982  sp2 evince Lecture/Lecture5-6.pdf
+ 7983  _ apt update
+ 7984  apt list --upgradable
+ 7985  _ apt upgrade
+ 7986  sudo  apt autoremove 
+ 7987  cd /tmp
+ 7988  cat << EOF > BoundsMethodInvoking.java
+ 7989  public class NaturalNumber<T extends Integer> {
+ 7990      private T n;
+ 7991      public NaturalNumber(T n)  { this.n = n; }
+ 7992      public boolean isEven() {
+ 7993          return n.intValue() % 2 == 0;
+ 7994      }
+ 7995      // ...
+ 7996  }
+ 7997  EOF
+ 7998  sed 's@    @....@' BoundsMethodInvoking.java 
+ 7999  sed 's@    @....@g' BoundsMethodInvoking.java 
+ 8000  uniserver 
+ 8001  cd $UNIPATH
+ 8002  grep -i "olivia.*92." passwd_2022-01-14_13-31-23.txt 
+ 8003  cd /tmp
+ 8004  ls
+ 8005  cat << EOF >> correctness-incorectness-wildcard-types.java
+ 8006  ArrayList<?>   wildlist
+ 8007  ArrayList<Integer> intlist;
+ 8008  wildlist=intlist;
+ 8009  intlist.add(1,new Integer(2));
+ 8010  wildlist.add(1,new Integer(2));
+ 8011  Integer a=intlist.get(1);
+ 8012  Integer b=wildlist.get(1);
+ 8013  EOF
+ 8014  vi correctness-incorectness-wildcard-types.java 
+ 8015  cat -n correctness-incorectness-wildcard-types.java 
+ 8016  vi InstanceOfOnObject.java 
+ 8017  vi RawTypes.java 
+ 8018  vi UnboundedWildcard
+ 8019  vi UnboundedWildcard.java 
+ 8020  vi Amain.java 
+ 8021  find . -iname "logs"
+ 8022  ls
+ 8023  lrth log
+ 8024  lrth
+ 8025  lrth log/
+ 8026  lrth log/
+ 8027  lrth log/
+ 8028  lrth log/
+ 8029  cat log/log00.txt 
+ 8030  lrth log/
+ 8031  ..
+ 8032  backup A7
+ 8033  cd A6
+ 8034  ls
+ 8035  ./runA6.sh 
+ 8036  javac
+ 8037  ls
+ 8038  tail src/controller/Interpreter.java 
+ 8039  vi src/controller/Interpreter.java 
+ 8040  cat runA6.sh 
+ 8041  java -classpath ./out/production/A6 controller.Interpreter -dhf
+ 8042  scratch
+ 8043  ls
+ 8044  mkdir apm-program-examples-to-code
+ 8045  cd apm-program-examples-to-code/
+ 8046  cat << EOF > sample.txt
+ 8047     0 : exit
+ 8048     1 : int v; v=2; print(v)
+ 8049     2 : int a; int b; a=2+3*5; b=a+1; print(b)
+ 8050     3 : boolean a; int v; a=true; IF(a)THEN(v=2)ELSE(v=3); print(v)
+ 8051     4 : string varf; varf=input/test1.in; openRFileStatement(varf); int varc; readFileStatement(varf, varc); print(varc); readFileStatement(varf, varc); print(varc); closeRFileStatement(varf)
+ 8052     5 : string varf; varf=input/test2.in; openRFileStatement(varf); int varc; readFileStatement(varf, varc); print(varc); readFileStatement(varf, varc); print(varc); closeRFileStatement(varf)
+ 8053     6 : Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)
+ 8054     7 : Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(read(v)); print(read(read(a))+5)
+ 8055     8 : Ref(int) v; new(v, 20); print(read(v)); write(v, 30); print(read(v)+5)
+ 8056     9 : Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); new(v, 30); print(read(read(a)))
+ 8057    10 : int v; v=4; while(v>0) {print(v); v=v-1}; print(v)
+ 8058    11 : Ref(int) v; new(v, 20); new(v, 0); print(v)
+ 8059    12 : int v; Ref(int) a; v=10; new(a, 22); fork(write(a, 30); v=32; print(v); print(read(a))); print(v); print(read(a))
+ 8060    13 : int v; Ref(int) a; v=10; new(a, 22); fork(write(a, 30); v=32; print(v); print(read(a))); print(v); print(read(a)); NOP; NOP
+ 8061    14 : Run all
+ 8062  EOF
+ 8063  cat sample.txt 
+ 8064  grep ";" sample.txt 
+ 8065  grep "[^(];" sample.txt 
+ 8066  grep "(;" sample.txt 
+ 8067  grep "[^(]*;[^)]*" sample.txt 
+ 8068  grep "[^\(];" sample.txt 
+ 8069  grep "[^(];" sample.txt 
+ 8070  grep "[^(]*;" sample.txt 
+ 8071  ps -aux | grep firefox
+ 8072  ps -aux | grep xfce
+ 8073  ps -aux | grep xfce4-terminal
+ 8074  ps -aux | grep "[x]fce4-terminal"
+ 8075  shutdown1
+ 8076  APM
+ 8077  ls
+ 8078  backup A7
+ 8079  cd A7
+ 8080  gs
+ 8081  g diff
+ 8082  ls
+ 8083  gs
+ 8084  vi updates.md 
+ 8085  ls
+ 8086  ls -A
+ 8087  ls -a
+ 8088  gl
+ 8089  ks
+ 8090  cat src/view/Main.java 
+ 8091  clear
+ 8092  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8093  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -dhf
+ 8094  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -dhf
+ 8095  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -dhf
+ 8096  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8097  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8098  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8099  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8100  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8101  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8102  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8103  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8104  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8105  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8106  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main -
+ 8107  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8108  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8109  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8110  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8111  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8112  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8113  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8114  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8115  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8116  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8117  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8118  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8119  gs
+ 8120  g add -a
+ 8121  g add -A
+ 8122  gs
+ 8123  g commit -m "see updates.md"
+ 8124  gl
+ 8125  ssh-agent
+ 8126  ssh-add
+ 8127  g push -u origin main
+ 8128  gl
+ 8129  gs
+ 8130  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8131  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8132  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8133  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8134  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8135  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8136  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8137  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8138  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ 8139  gs
+ 8140  tree
+ 8141  vi src/interpreter/Interpreter.java 
+ 8142  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8143  vi src/interpreter/Interpreter.java 
+ 8144  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8145  vi src/interpreter/Interpreter.java 
+ 8146  vi src/interpreter/Interpreter.java 
+ 8147  vi src/interpreter/Interpreter.java 
+ 8148  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8149  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8150  vi src/interpreter/Interpreter.java 
+ 8151  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8152  vi src/interpreter/Interpreter.java 
+ 8153  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ interpreter.Interpreter
+ 8154  gs
+ 8155  g diff
+ 8156  git add -A
+ 8157  s
+ 8158  gs
+ 8159  g commit -m "fix threads ids, add remove completed programs for oneStepExecutionForAllPrograms, made the TextUI still work after type-check fails"
+ 8160  g push -u origin main
+ 8161  gl
+ 8162  vi updates.md 
+ 8163  vi updates.md 
+ 8164  lrth
+ 8165  vi updates.md 
+ 8166  ..
+ 8167  cd Lab
+ 8168  ls
+ 8169  evince Lab6.pdf 
+ 8170  evince Lab7.pdf 
+ 8171  evince Lab8.pdf 
+ 8172  cd ~; title 
+ 8173  slay google-chrome
+ 8174  pkill -15 -f  view.Main
+ 8175  pkill -15 -f  view.Main
+ 8176  ..
+ 8177  cd teams/Lecture/
+ 8178  sp2 evince Lecture9.pdf 
+ 8179  sp2 evince Lecture11.pdf 
+ 8180  sp2 evince Lecture10.pdf 
+ 8181  pgrep java
+ 8182  pgrep java -F
+ 8183  pgrep java -l
+ 8184  pgrep java -a
+ 8185  ..
+ 8186  ls
+ 8187  cd Seminar\ -\ Cristea\ Daniela/
+ 8188  ls
+ 8189  ls -1\
+ 8190  ls -1
+ 8191  cd Interpreter_Threads_template4
+ 8192  ls
+ 8193  tree
+ 8194  find . -iname "Prg*"
+ 8195  vi ./src/PrgState.java
+ 8196  title 
+ 8197  slay teams
+ 8198  scratch
+ 8199  cd java/
+ 8200  ls
+ 8201  type jr
+ 8202  ls
+ 8203  jr InstanceOfOnObject
+ 8204  jr InstanceOfOnObject
+ 8205  jr InstanceOfOnObject
+ 8206  jr RawTypes
+ 8207  jr RawTypes
+ 8208  javac RawTypes.java 
+ 8209  javac RawTypes.java  -Xlint:unchecked
+ 8210  javac RawTypes.java  -Xlint:unchecked
+ 8211  javac RawTypes.java  -Xlint:unchecked
+ 8212  javac RawTypes.java  -Xlint:unchecked
+ 8213  jr UnboundedWildcard
+ 8214  jr UnboundedWildcard
+ 8215  jr UnboundedWildcard
+ 8216  jr UnboundedWildcard
+ 8217  jr UnboundedWildcard
+ 8218  javac UnboundedWildcard -Xdiags:verbose
+ 8219  javac UnboundedWildcard.java -Xdiags:verbose
+ 8220  javac UnboundedWildcard.java -Xdiags:verbose
+ 8221  javac UnboundedWildcard.java -Xdiags:verbose
+ 8222  javac UnboundedWildcard.java -Xdiags:verbose
+ 8223  javac UnboundedWildcard.java -Xdiags:verbose
+ 8224  javac UnboundedWildcard.java -Xdiags:verbose
+ 8225  javac UnboundedWildcard.java -Xdiags:verbose
+ 8226  [A
+ 8227  javac UnboundedWildcard.java -Xdiags:verbose
+ 8228  jr Amain
+ 8229  jr Amain
+ 8230  jr Amain
+ 8231  jr Amain
+ 8232  jr Amain
+ 8233  jr Amain
+ 8234  jr Amain
+ 8235  jr Amain
+ 8236  jr Amain
+ 8237  jr Amain
+ 8238  jr Amain
+ 8239  jr Amain
+ 8240  jr Amain
+ 8241  jr Amain
+ 8242  jr Amain
+ 8243  jr Amain
+ 8244  jr Amain
+ 8245  jr Amain
+ 8246  slay teams
+ 8247  slay vlc
+ 8248  slay vlc
+ 8249  pkill -15 -f vlc
+ 8250  pkill -15 -f vlc
+ 8251  pkill -15 -f vlc
+ 8252  slay firefox && cleanup && shutdown -r now
+ 8253  cd A7
+ 8254  ls
+ 8255  history
+ kamui   main  …  Uni  S3.APM  A7  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+ kamui   main  …  Uni  S3.APM  A7  gs
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+ kamui   main  …  Uni  S3.APM  A7  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+[Interpreter.oneStepForAllPrograms] failed: java.lang.ClassCastException: class model.values.BoolValue cannot be cast to class com.sun.jdi.BooleanValue (model.values.BoolValue is in unnamed module of loader 'app'; com.sun.jdi.BooleanValue is in module jdk.jdi of loader 'app')
+[Interpreter.oneStepForAllPrograms] failed: java.lang.ClassCastException: class model.values.BoolValue cannot be cast to class com.sun.jdi.BooleanValue (model.values.BoolValue is in unnamed module of loader 'app'; com.sun.jdi.BooleanValue is in module jdk.jdi of loader 'app')
+^C^C
+ kamui   main  …  Uni  S3.APM  A7  130  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+^C kamui   main  …  Uni  S3.APM  A7  130  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+
+^C kamui   main  …  Uni  S3.APM  A7  130  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+^C^C
+ kamui   main  …  Uni  S3.APM  A7  130  
+ kamui   main  …  Uni  S3.APM  A7  130  javafxc -d out/production/A7/ $(find src/ -name "*.java") && javafx -classpath out/production/A7/ view.Main
+Exception in thread "JavaFX Application Thread" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	... 46 more
+Caused by: java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at view.ProgramExecutionController.lambda$setSymbolTableTableViewAndExecutionStackListView$2(ProgramExecutionController.java:145)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:652)
+	at view.ProgramExecutionController.setSymbolTableTableViewAndExecutionStackListView(ProgramExecutionController.java:146)
+	at view.ProgramExecutionController.update(ProgramExecutionController.java:89)
+	at view.ProgramExecutionController.oneStep(ProgramExecutionController.java:206)
+	at view.ProgramExecutionController.handleOneStepButtonAction(ProgramExecutionController.java:213)
+	... 56 more
+Exception in thread "JavaFX Application Thread" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
+	at javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8792)
+	at javafx.controls/javafx.scene.control.Button.fire(Button.java:203)
+	at javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
+	at javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+	at javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+	at javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1852)
+	... 46 more
+Caused by: java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at view.ProgramExecutionController.lambda$setSymbolTableTableViewAndExecutionStackListView$2(ProgramExecutionController.java:145)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:652)
+	at view.ProgramExecutionController.setSymbolTableTableViewAndExecutionStackListView(ProgramExecutionController.java:146)
+	at view.ProgramExecutionController.update(ProgramExecutionController.java:89)
+	at view.ProgramExecutionController.oneStep(ProgramExecutionController.java:206)
+	at view.ProgramExecutionController.handleOneStepButtonAction(ProgramExecutionController.java:213)
+	... 56 more
+Exception in thread "JavaFX Application Thread" java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at view.ProgramExecutionController.lambda$setSymbolTableTableViewAndExecutionStackListView$2(ProgramExecutionController.java:145)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:652)
+	at view.ProgramExecutionController.setSymbolTableTableViewAndExecutionStackListView(ProgramExecutionController.java:146)
+	at view.ProgramExecutionController.lambda$initialize$11(ProgramExecutionController.java:238)
+	at javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.base/javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.graphics/javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3602)
+	at javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3906)
+	at javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:557)
+	at javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:943)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

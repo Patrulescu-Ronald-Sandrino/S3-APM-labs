@@ -1,0 +1,470 @@
+ID: 10001
+[1;33mExecutionStack:[0m
+int v
+v=4
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+int v
+v=4
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+v=4
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+v=4
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 4
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 4
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 4
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 4
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 4
+
+[1;31mOutList:[0m
+4
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 3
+
+[1;31mOutList:[0m
+4
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 3
+
+[1;33mOutList:[0m
+4
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 3
+
+[1;31mOutList:[0m
+4
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 3
+
+[1;31mOutList:[0m
+4
+3
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 2
+
+[1;31mOutList:[0m
+4
+3
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 2
+
+[1;33mOutList:[0m
+4
+3
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 2
+
+[1;31mOutList:[0m
+4
+3
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 2
+
+[1;31mOutList:[0m
+4
+3
+2
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 1
+
+[1;31mOutList:[0m
+4
+3
+2
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;33mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;33mSymbolTable:[0m
+v --> 1
+
+[1;33mOutList:[0m
+4
+3
+2
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+print(v)
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 1
+
+[1;31mOutList:[0m
+4
+3
+2
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+v=v-1
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 1
+
+[1;31mOutList:[0m
+4
+3
+2
+1
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+while(v>0) {print(v); v=v-1}
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 0
+
+[1;31mOutList:[0m
+4
+3
+2
+1
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;31mExecutionStack:[0m
+print(v)
+
+[1;31mSymbolTable:[0m
+v --> 0
+
+[1;31mOutList:[0m
+4
+3
+2
+1
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 10001
+[1;90mExecutionStack:[0m
+
+[1;90mSymbolTable:[0m
+v --> 0
+
+[1;90mOutList:[0m
+4
+3
+2
+1
+0
+
+[1;90mFileTable:[0m
+
+[1;90mHeap:[0m
+
+
+
+

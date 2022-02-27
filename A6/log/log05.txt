@@ -1,0 +1,386 @@
+ID: 5001
+[1;33mExecutionStack:[0m
+string varf
+varf=input/test2.in
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+string varf
+varf=input/test2.in
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+varf=input/test2.in
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> 
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+varf=input/test2.in
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> 
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+openRFileStatement(varf)
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+input/test2.in
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+int varc
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+input/test2.in
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+readFileStatement(varf, varc)
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+input/test2.in
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+print(varc)
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;33mOutList:[0m
+0
+
+[1;33mFileTable:[0m
+input/test2.in
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+readFileStatement(varf, varc)
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;31mOutList:[0m
+0
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;33mExecutionStack:[0m
+print(varc)
+closeRFileStatement(varf)
+
+[1;33mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;33mOutList:[0m
+0
+
+[1;33mFileTable:[0m
+input/test2.in
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+print(varc)
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;31mOutList:[0m
+0
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;31mExecutionStack:[0m
+closeRFileStatement(varf)
+
+[1;31mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;31mOutList:[0m
+0
+0
+
+[1;31mFileTable:[0m
+input/test2.in
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 5001
+[1;90mExecutionStack:[0m
+
+[1;90mSymbolTable:[0m
+varf --> input/test2.in
+varc --> 0
+
+[1;90mOutList:[0m
+0
+0
+
+[1;90mFileTable:[0m
+
+[1;90mHeap:[0m
+
+
+
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="view.ProgramExecutionController"
+          prefHeight="500.0" prefWidth="600.0"
+          alignment="CENTER"
+          hgap="20" vgap="20">
+
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+
+
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+        <ColumnConstraints hgrow="SOMETIMES" />
+    </columnConstraints>
+
+
+    <children>
+<!--        Number of active Program States -->
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER">
+              <children>
+                  <Text text="Active Program States:"/>
+                  <TextField fx:id="numberOfActiveProgramStatesTextField" editable="false"/>
+              </children>
+        </HBox>
+<!--        Run Buttons -->
+        <VBox GridPane.columnIndex="1" GridPane.rowIndex="0" alignment="CENTER">
+            <Button fx:id="oneStepButton" onAction="#handleOneStepButtonAction" text="_One Step"/>
+            <Button fx:id="allStepButton" onAction="#handleAllStepButtonAction" text="_All Step"/>
+        </VBox>
+<!--        Symbol Table -->
+        <VBox GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Text text="Symbol Table:"/>
+            <TableView fx:id="symbolTableTableView">
+                <columnResizePolicy>  <!-- to get rid of the extra space in the header column-->
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+                <columns>
+                    <TableColumn fx:id="symbolTableTableViewSymbolColumn" text="Symbol"/>
+                    <TableColumn fx:id="symbolTableTableViewValueColumn" text="Value"/>
+                </columns>
+            </TableView>
+        </VBox>
+<!--        Heap Table -->
+        <VBox GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Text text="Heap:"/>
+            <TableView fx:id="heapTableTableView">
+                <columnResizePolicy>  <!-- to get rid of the extra space in the header column-->
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+                <columns>
+                    <TableColumn fx:id="heapTableTableViewAddressColumn" text="Address"/>
+                    <TableColumn fx:id="heapTableTableViewValueColumn" text="Value"/>
+                </columns>
+            </TableView>
+        </VBox>
+<!--        File Table -->
+        <VBox GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Text text="File Table:"/>
+            <TableView fx:id="fileTableTableView">
+                <columnResizePolicy>  <!-- to get rid of the extra space in the header column-->
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+                <columns>
+                    <TableColumn fx:id="fileTableTableViewIDColumn" text="ID"/>
+                    <TableColumn fx:id="fileTableTableViewFileColumn" text="File"/>
+                </columns>
+            </TableView>
+        </VBox>
+<!--        HBox of Execution Stack and Out List -->
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="2"
+              GridPane.columnSpan="3" GridPane.rowSpan="1" alignment="CENTER" spacing="20.0" maxWidth="Infinity">
+<!--            <padding>-->
+<!--                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />-->
+<!--            </padding>-->
+            <VBox maxWidth="Infinity">
+                <Text text="Execution Stack:"/>
+                <ListView fx:id="executionStackListView" maxWidth="Infinity"/>
+            </VBox>
+            <VBox maxWidth="Infinity">
+                <Text text="Out List:"/>
+                <ListView fx:id="outListListView" maxWidth="Infinity"/>
+            </VBox>
+        </HBox>
+<!--        Active Program States IDs -->
+        <VBox GridPane.columnIndex="4" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="3">
+            <Text text="States IDs:"/>
+            <ListView fx:id="programStateIDsListView"/>
+        </VBox>
+    </children>
+
+</GridPane>
+
+

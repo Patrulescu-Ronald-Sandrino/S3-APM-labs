@@ -1,0 +1,451 @@
+ID: 12001
+[1;33mExecutionStack:[0m
+int v
+Ref(int) a
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+int v
+Ref(int) a
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 12001
+[1;33mExecutionStack:[0m
+Ref(int) a
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+v --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+Ref(int) a
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+v --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 12001
+[1;33mExecutionStack:[0m
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (0, int)
+v --> 0
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+v=10
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (0, int)
+v --> 0
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 12001
+[1;33mExecutionStack:[0m
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (0, int)
+v --> 10
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+new(a, 22)
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (0, int)
+v --> 10
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+
+
+
+
+ID: 12001
+[1;33mExecutionStack:[0m
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+fork(write(a, 30); v=32; print(v); print(read(a)))
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12001
+[1;33mExecutionStack:[0m
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12002
+[1;33mExecutionStack:[0m
+write(a, 30)
+v=32
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;33mOutList:[0m
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12002
+[1;31mExecutionStack:[0m
+write(a, 30)
+v=32
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;31mOutList:[0m
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 22
+
+
+
+
+ID: 12001
+[1;31mExecutionStack:[0m
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;31mOutList:[0m
+10
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;33mExecutionStack:[0m
+v=32
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;33mOutList:[0m
+10
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12001
+[1;90mExecutionStack:[0m
+
+[1;90mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;90mOutList:[0m
+10
+30
+
+[1;90mFileTable:[0m
+
+[1;90mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;31mExecutionStack:[0m
+v=32
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 10
+
+[1;31mOutList:[0m
+10
+30
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;33mExecutionStack:[0m
+print(v)
+print(read(a))
+
+[1;33mSymbolTable:[0m
+a --> (1, int)
+v --> 32
+
+[1;33mOutList:[0m
+10
+30
+
+[1;33mFileTable:[0m
+
+[1;33mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;31mExecutionStack:[0m
+print(v)
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 32
+
+[1;31mOutList:[0m
+10
+30
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;31mExecutionStack:[0m
+print(read(a))
+
+[1;31mSymbolTable:[0m
+a --> (1, int)
+v --> 32
+
+[1;31mOutList:[0m
+10
+30
+32
+
+[1;31mFileTable:[0m
+
+[1;31mHeap:[0m
+1 --> 30
+
+
+
+
+ID: 12002
+[1;90mExecutionStack:[0m
+
+[1;90mSymbolTable:[0m
+a --> (1, int)
+v --> 32
+
+[1;90mOutList:[0m
+10
+30
+32
+30
+
+[1;90mFileTable:[0m
+
+[1;90mHeap:[0m
+1 --> 30
+
+
+
+
